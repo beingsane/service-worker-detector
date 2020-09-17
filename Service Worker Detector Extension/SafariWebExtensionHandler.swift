@@ -1,12 +1,14 @@
 //
 //  SafariWebExtensionHandler.swift
-//  safari-service-worker-detector Extension
+//  Service Worker Detector Extension
 //
-//  Created by Thomas Steiner on 29.06.20.
+//  Created by Thomas Steiner on 16.09.20.
 //
 
 import SafariServices
 import os.log
+
+let SFExtensionMessageKey = "message"
 
 class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
@@ -17,7 +19,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
         let response = NSExtensionItem()
         response.userInfo = [ SFExtensionMessageKey: [ "Response to": message ] ]
-        
+
         context.completeRequest(returningItems: [response], completionHandler: nil)
     }
     

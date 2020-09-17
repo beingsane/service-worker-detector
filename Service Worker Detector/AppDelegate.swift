@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  safari-service-worker-detector
+//  Service Worker Detector
 //
-//  Created by Thomas Steiner on 29.06.20.
+//  Created by Thomas Steiner on 16.09.20.
 //
 
 import Cocoa

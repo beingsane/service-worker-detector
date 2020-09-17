@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6DC93F2512415C008CE9B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DC93E2512415C008CE9B9 /* AppDelegate.swift */; };
+		0C6DC9422512415C008CE9B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC9402512415C008CE9B9 /* Main.storyboard */; };
+		0C6DC9442512415C008CE9B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DC9432512415C008CE9B9 /* ViewController.swift */; };
+		0C6DC9462512415E008CE9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC9452512415E008CE9B9 /* Assets.xcassets */; };
+		0C6DC94D2512415F008CE9B9 /* Service Worker Detector Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0C6DC94C2512415F008CE9B9 /* Service Worker Detector Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0C6DC9522512415F008CE9B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6DC9512512415F008CE9B9 /* Cocoa.framework */; };
+		0C6DC9552512415F008CE9B9 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6DC9542512415F008CE9B9 /* SafariWebExtensionHandler.swift */; };
+		0C6DC980251242D4008CE9B9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC976251242D4008CE9B9 /* manifest.json */; };
+		0C6DC981251242D4008CE9B9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC977251242D4008CE9B9 /* README.md */; };
+		0C6DC982251242D4008CE9B9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC978251242D4008CE9B9 /* LICENSE */; };
+		0C6DC983251242D4008CE9B9 /* third_party in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC979251242D4008CE9B9 /* third_party */; };
+		0C6DC984251242D4008CE9B9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC97A251242D4008CE9B9 /* popup.js */; };
+		0C6DC985251242D4008CE9B9 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC97B251242D4008CE9B9 /* assets */; };
+		0C6DC986251242D4008CE9B9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC97C251242D4008CE9B9 /* background.js */; };
+		0C6DC987251242D4008CE9B9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC97D251242D4008CE9B9 /* popup.html */; };
+		0C6DC988251242D4008CE9B9 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC97E251242D4008CE9B9 /* main.css */; };
+		0C6DC989251242D4008CE9B9 /* contentscript.js in Resources */ = {isa = PBXBuildFile; fileRef = 0C6DC97F251242D4008CE9B9 /* contentscript.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C6DC94E2512415F008CE9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C6DC9322512415C008CE9B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C6DC94B2512415F008CE9B9;
+			remoteInfo = "Service Worker Detector Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C6DC96E2512415F008CE9B9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0C6DC94D2512415F008CE9B9 /* Service Worker Detector Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C6DC93A2512415C008CE9B9 /* Service Worker Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Service Worker Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6DC93D2512415C008CE9B9 /* Service_Worker_Detector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Service_Worker_Detector.entitlements; sourceTree = "<group>"; };
+		0C6DC93E2512415C008CE9B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C6DC9412512415C008CE9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C6DC9432512415C008CE9B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C6DC9452512415E008CE9B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C6DC9472512415E008CE9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6DC94C2512415F008CE9B9 /* Service Worker Detector Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Service Worker Detector Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6DC9512512415F008CE9B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0C6DC9542512415F008CE9B9 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0C6DC9672512415F008CE9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6DC9682512415F008CE9B9 /* Service_Worker_Detector_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Service_Worker_Detector_Extension.entitlements; sourceTree = "<group>"; };
+		0C6DC976251242D4008CE9B9 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0C6DC977251242D4008CE9B9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0C6DC978251242D4008CE9B9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0C6DC979251242D4008CE9B9 /* third_party */ = {isa = PBXFileReference; lastKnownFileType = folder; path = third_party; sourceTree = "<group>"; };
+		0C6DC97A251242D4008CE9B9 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		0C6DC97B251242D4008CE9B9 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		0C6DC97C251242D4008CE9B9 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		0C6DC97D251242D4008CE9B9 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		0C6DC97E251242D4008CE9B9 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		0C6DC97F251242D4008CE9B9 /* contentscript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentscript.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C6DC9372512415C008CE9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6DC9492512415F008CE9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6DC9522512415F008CE9B9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6DC9312512415C008CE9B9 = {
+			isa = PBXGroup;
+			children = (
+				0C6DC93C2512415C008CE9B9 /* Service Worker Detector */,
+				0C6DC9532512415F008CE9B9 /* Service Worker Detector Extension */,
+				0C6DC9502512415F008CE9B9 /* Frameworks */,
+				0C6DC93B2512415C008CE9B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C6DC93B2512415C008CE9B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C6DC93A2512415C008CE9B9 /* Service Worker Detector.app */,
+				0C6DC94C2512415F008CE9B9 /* Service Worker Detector Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C6DC93C2512415C008CE9B9 /* Service Worker Detector */ = {
+			isa = PBXGroup;
+			children = (
+				0C6DC93D2512415C008CE9B9 /* Service_Worker_Detector.entitlements */,
+				0C6DC93E2512415C008CE9B9 /* AppDelegate.swift */,
+				0C6DC9402512415C008CE9B9 /* Main.storyboard */,
+				0C6DC9432512415C008CE9B9 /* ViewController.swift */,
+				0C6DC9452512415E008CE9B9 /* Assets.xcassets */,
+				0C6DC9472512415E008CE9B9 /* Info.plist */,
+			);
+			path = "Service Worker Detector";
+			sourceTree = "<group>";
+		};
+		0C6DC9502512415F008CE9B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C6DC9512512415F008CE9B9 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C6DC9532512415F008CE9B9 /* Service Worker Detector Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C6DC9542512415F008CE9B9 /* SafariWebExtensionHandler.swift */,
+				0C6DC9672512415F008CE9B9 /* Info.plist */,
+				0C6DC9682512415F008CE9B9 /* Service_Worker_Detector_Extension.entitlements */,
+				0C6DC9562512415F008CE9B9 /* Resources */,
+			);
+			path = "Service Worker Detector Extension";
+			sourceTree = "<group>";
+		};
+		0C6DC9562512415F008CE9B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C6DC97B251242D4008CE9B9 /* assets */,
+				0C6DC97C251242D4008CE9B9 /* background.js */,
+				0C6DC97F251242D4008CE9B9 /* contentscript.js */,
+				0C6DC978251242D4008CE9B9 /* LICENSE */,
+				0C6DC97E251242D4008CE9B9 /* main.css */,
+				0C6DC976251242D4008CE9B9 /* manifest.json */,
+				0C6DC97D251242D4008CE9B9 /* popup.html */,
+				0C6DC97A251242D4008CE9B9 /* popup.js */,
+				0C6DC977251242D4008CE9B9 /* README.md */,
+				0C6DC979251242D4008CE9B9 /* third_party */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C6DC9392512415C008CE9B9 /* Service Worker Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6DC96F2512415F008CE9B9 /* Build configuration list for PBXNativeTarget "Service Worker Detector" */;
+			buildPhases = (
+				0C6DC9362512415C008CE9B9 /* Sources */,
+				0C6DC9372512415C008CE9B9 /* Frameworks */,
+				0C6DC9382512415C008CE9B9 /* Resources */,
+				0C6DC96E2512415F008CE9B9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C6DC94F2512415F008CE9B9 /* PBXTargetDependency */,
+			);
+			name = "Service Worker Detector";
+			productName = "Service Worker Detector";
+			productReference = 0C6DC93A2512415C008CE9B9 /* Service Worker Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C6DC94B2512415F008CE9B9 /* Service Worker Detector Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6DC96B2512415F008CE9B9 /* Build configuration list for PBXNativeTarget "Service Worker Detector Extension" */;
+			buildPhases = (
+				0C6DC9482512415F008CE9B9 /* Sources */,
+				0C6DC9492512415F008CE9B9 /* Frameworks */,
+				0C6DC94A2512415F008CE9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Service Worker Detector Extension";
+			productName = "Service Worker Detector Extension";
+			productReference = 0C6DC94C2512415F008CE9B9 /* Service Worker Detector Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C6DC9322512415C008CE9B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0C6DC9392512415C008CE9B9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					0C6DC94B2512415F008CE9B9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 0C6DC9352512415C008CE9B9 /* Build configuration list for PBXProject "Service Worker Detector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C6DC9312512415C008CE9B9;
+			productRefGroup = 0C6DC93B2512415C008CE9B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C6DC9392512415C008CE9B9 /* Service Worker Detector */,
+				0C6DC94B2512415F008CE9B9 /* Service Worker Detector Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C6DC9382512415C008CE9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6DC9462512415E008CE9B9 /* Assets.xcassets in Resources */,
+				0C6DC9422512415C008CE9B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6DC94A2512415F008CE9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6DC982251242D4008CE9B9 /* LICENSE in Resources */,
+				0C6DC987251242D4008CE9B9 /* popup.html in Resources */,
+				0C6DC988251242D4008CE9B9 /* main.css in Resources */,
+				0C6DC983251242D4008CE9B9 /* third_party in Resources */,
+				0C6DC986251242D4008CE9B9 /* background.js in Resources */,
+				0C6DC984251242D4008CE9B9 /* popup.js in Resources */,
+				0C6DC985251242D4008CE9B9 /* assets in Resources */,
+				0C6DC989251242D4008CE9B9 /* contentscript.js in Resources */,
+				0C6DC981251242D4008CE9B9 /* README.md in Resources */,
+				0C6DC980251242D4008CE9B9 /* manifest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C6DC9362512415C008CE9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6DC9442512415C008CE9B9 /* ViewController.swift in Sources */,
+				0C6DC93F2512415C008CE9B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6DC9482512415F008CE9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6DC9552512415F008CE9B9 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C6DC94F2512415F008CE9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C6DC94B2512415F008CE9B9 /* Service Worker Detector Extension */;
+			targetProxy = 0C6DC94E2512415F008CE9B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C6DC9402512415C008CE9B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C6DC9412512415C008CE9B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C6DC9692512415F008CE9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C6DC96A2512415F008CE9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0C6DC96C2512415F008CE9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Service Worker Detector Extension/Service_Worker_Detector_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58S46496RD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Service Worker Detector Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.googlechromelabs.service-worker-detector.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C6DC96D2512415F008CE9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Service Worker Detector Extension/Service_Worker_Detector_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58S46496RD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Service Worker Detector Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.googlechromelabs.service-worker-detector.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0C6DC9702512415F008CE9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Service Worker Detector/Service_Worker_Detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 58S46496RD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Service Worker Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.googlechromelabs.service-worker-detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0C6DC9712512415F008CE9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Service Worker Detector/Service_Worker_Detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 58S46496RD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Service Worker Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.googlechromelabs.service-worker-detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6DC9352512415C008CE9B9 /* Build configuration list for PBXProject "Service Worker Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6DC9692512415F008CE9B9 /* Debug */,
+				0C6DC96A2512415F008CE9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6DC96B2512415F008CE9B9 /* Build configuration list for PBXNativeTarget "Service Worker Detector Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6DC96C2512415F008CE9B9 /* Debug */,
+				0C6DC96D2512415F008CE9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6DC96F2512415F008CE9B9 /* Build configuration list for PBXNativeTarget "Service Worker Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6DC9702512415F008CE9B9 /* Debug */,
+				0C6DC9712512415F008CE9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C6DC9322512415C008CE9B9 /* Project object */;
+}
